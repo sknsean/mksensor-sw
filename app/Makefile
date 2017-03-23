@@ -37,6 +37,9 @@ QUIET ?= 1
 #USEMODULE += shell
 #USEMODULE += posix
 #USEMODULE += xtimer
+
+USEMODULE += bmp180
+USEMODULE += tsl2561
 USEMODULE += at86rf2xx
 
 # Include packages that pull up and auto-init the link layer.
