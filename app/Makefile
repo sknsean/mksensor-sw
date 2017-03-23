@@ -36,7 +36,14 @@ QUIET ?= 1
 
 #USEMODULE += shell
 #USEMODULE += posix
-#USEMODULE += xtimer
+USEMODULE += xtimer
+# we want to use SAUL:
+USEMODULE += saul_default
+# include the shell:
+USEMODULE += shell
+USEMODULE += shell_commands
+# additional modules for debugging:
+USEMODULE += ps
 
 USEMODULE += bmp180
 USEMODULE += tsl2561
