@@ -119,6 +119,18 @@ static const uart_conf_t uart_config[] = {
 /** @} */
 
 /**
+ * @name PWM configuration
+ * @{
+ */
+#define PWM_MAX_CHANNELS    0
+
+/* PWM device configuration */
+static const pwm_conf_t pwm_config[0] = {};
+
+#define PWM_NUMOF           (0)
+/** @} */
+
+/**
  * @name ADC configuration
  * @{
  */
